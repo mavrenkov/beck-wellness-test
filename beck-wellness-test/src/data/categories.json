@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mood",
+    "title": "Mood",
+    "emoji": "😊",
+    "questions": [1, 2, 3, 4, 5, 6, 7, 8]
+  },
+  {
+    "id": "energy",
+    "title": "Energy & Motivation",
+    "emoji": "⚡",
+    "questions": [9, 10, 11, 12]
+  },
+  {
+    "id": "sleep",
+    "title": "Sleep",
+    "emoji": "🛌",
+    "questions": [13, 14, 15]
+  },
+  {
+    "id": "appetite",
+    "title": "Appetite",
+    "emoji": "🍽️",
+    "questions": [16, 17]
+  },
+  {
+    "id": "cognition",
+    "title": "Cognition",
+    "emoji": "🧠",
+    "questions": [18, 19, 20, 21]
+  }
+] 

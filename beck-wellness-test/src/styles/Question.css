@@ -1,0 +1,126 @@
+/* Загальні стилі для компонентів питань */
+.question-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.5s ease;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  margin: 1rem auto 2rem;
+}
+
+.question-emoji-enhanced {
+  margin-bottom: 1.5rem;
+}
+
+.emoji-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.emoji-glow {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  filter: blur(15px);
+  opacity: 0.5;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.emoji-char {
+  position: relative;
+  font-size: 3.5rem;
+  z-index: 1;
+}
+
+.question-text-animated {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Стилі для звичайних опцій */
+.option-label {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.option-label:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.option-label.selected {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Анімації */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slide-down {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes shake-once {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}
+
+@keyframes scale-in {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes drop-in {
+  from { transform: translateY(-30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fade-in { animation: fade-in 0.6s ease-in-out; }
+.slide-up { animation: slide-up 0.6s ease-out; }
+.slide-down { animation: slide-down 0.6s ease-out; }
+.shake-once { animation: shake-once 0.3s linear; }
+.scale-in { animation: scale-in 0.4s ease-out; }
+.pulse { animation: pulse 1s ease-in-out infinite; }
+.drop-in { animation: drop-in 0.5s ease-out; }
+
+.entering {
+  animation: fade-in 0.5s ease-out;
+}
+
+.entered {
+  animation: none;
+} 

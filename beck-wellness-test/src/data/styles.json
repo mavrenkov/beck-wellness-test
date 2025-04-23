@@ -1,0 +1,170 @@
+[
+  { 
+    "emoji": "😊", 
+    "background": "#f0faff", 
+    "color": "#003366", 
+    "darkBackground": "#0d2137", 
+    "darkColor": "#8bb8e8", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "⚡", 
+    "background": "#fffbea", 
+    "color": "#5c4400", 
+    "darkBackground": "#302914", 
+    "darkColor": "#e7cc6d", 
+    "animation": "slide-up" 
+  },
+  { 
+    "emoji": "🛌", 
+    "background": "#e6f7ff", 
+    "color": "#004466", 
+    "darkBackground": "#0d2535", 
+    "darkColor": "#67b5d1", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🍽️", 
+    "background": "#fff0f5", 
+    "color": "#663344", 
+    "darkBackground": "#331a23", 
+    "darkColor": "#d998a9", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🎨", 
+    "background": "#f5fff0", 
+    "color": "#334400", 
+    "darkBackground": "#212a14", 
+    "darkColor": "#a9cc66", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "😢", 
+    "background": "#f0f0f0", 
+    "color": "#333", 
+    "darkBackground": "#252525", 
+    "darkColor": "#b0b0b0", 
+    "animation": "fade-in-slow" 
+  },
+  { 
+    "emoji": "😠", 
+    "background": "#fff0e6", 
+    "color": "#993300", 
+    "darkBackground": "#332011", 
+    "darkColor": "#ff9966", 
+    "animation": "shake-once" 
+  },
+  { 
+    "emoji": "💪", 
+    "background": "#e6fff2", 
+    "color": "#006644", 
+    "darkBackground": "#0d3323", 
+    "darkColor": "#5bd1a0", 
+    "animation": "scale-in" 
+  },
+  { 
+    "emoji": "😰", 
+    "background": "#fff7e6", 
+    "color": "#994c00", 
+    "darkBackground": "#332815", 
+    "darkColor": "#e6a556", 
+    "animation": "pulse" 
+  },
+  { 
+    "emoji": "🧠", 
+    "background": "#f9f9ff", 
+    "color": "#333366", 
+    "darkBackground": "#1e1e33", 
+    "darkColor": "#9999cc", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "📋", 
+    "background": "#f4f9ff", 
+    "color": "#004d66", 
+    "darkBackground": "#0e1a24", 
+    "darkColor": "#67b7d1", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🤝", 
+    "background": "#f0fff5", 
+    "color": "#005533", 
+    "darkBackground": "#0d291a", 
+    "darkColor": "#5ed1a0", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "😴", 
+    "background": "#f2f2f2", 
+    "color": "#333", 
+    "darkBackground": "#222222", 
+    "darkColor": "#b0b0b0", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "⏳", 
+    "background": "#fffaf0", 
+    "color": "#664400", 
+    "darkBackground": "#2a2014", 
+    "darkColor": "#e6cc8f", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🌤️", 
+    "background": "#f0faff", 
+    "color": "#003366", 
+    "darkBackground": "#0d2137", 
+    "darkColor": "#8bb8e8", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🙇", 
+    "background": "#fdf0f0", 
+    "color": "#661111", 
+    "darkBackground": "#331111", 
+    "darkColor": "#e67070", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🎯", 
+    "background": "#f4fff9", 
+    "color": "#006644", 
+    "darkBackground": "#0d3323", 
+    "darkColor": "#5bd1a0", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🤗", 
+    "background": "#fafff0", 
+    "color": "#555500", 
+    "darkBackground": "#29290d", 
+    "darkColor": "#d1d156", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🪞", 
+    "background": "#fff6f6", 
+    "color": "#661122", 
+    "darkBackground": "#331115", 
+    "darkColor": "#e6707e", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🌈", 
+    "background": "#f0faff", 
+    "color": "#336699", 
+    "darkBackground": "#182533", 
+    "darkColor": "#7db1e6", 
+    "animation": "fade-in" 
+  },
+  { 
+    "emoji": "🖤", 
+    "background": "#f9f9f9", 
+    "color": "#111", 
+    "darkBackground": "#181818", 
+    "darkColor": "#999", 
+    "animation": "drop-in" 
+  }
+] 

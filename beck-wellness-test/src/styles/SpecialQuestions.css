@@ -1,0 +1,204 @@
+/* Стилі для спеціальних компонентів питань */
+
+/* JoyQuestion - питання з емоджі */
+.emoji-scale-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.emoji-scale-option {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 100px;
+  margin: 0 0.5rem;
+}
+
+.emoji-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1rem;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.emoji-scale-option:hover .emoji-circle {
+  transform: translateY(-5px);
+}
+
+.emoji-scale-option.selected .emoji-circle {
+  transform: translateY(-8px) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.scale-emoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.scale-text {
+  font-size: 0.8rem;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.floating-bubble {
+  position: absolute;
+  font-size: 1.5rem;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+/* EnergyQuestion - питання з енергією */
+.energy-meter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 200px;
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+.energy-option {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  max-width: 120px;
+  margin: 0 0.5rem;
+}
+
+.energy-bar-wrapper {
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.energy-bar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  transition: all 0.3s ease;
+}
+
+.energy-option.selected .energy-bar {
+  transform: translateY(-10px);
+}
+
+.energy-option:hover .energy-bar {
+  transform: translateY(-5px);
+}
+
+.energy-label {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.lightning-bolt {
+  position: absolute;
+  font-size: 1.5rem;
+  animation: lightning 1.5s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+@keyframes lightning {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+/* SliderQuestion - стилізований повзунок */
+.slider-container {
+  width: 100%;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.mood-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.mood-slider:hover {
+  opacity: 1;
+}
+
+.mood-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--thumb-color, #3498db);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.mood-slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--thumb-color, #3498db);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.mood-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mood-slider::-moz-range-thumb:hover {
+  transform: scale(1.2);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.slider-value {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.slider-question.animated .slider-value {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+} 
